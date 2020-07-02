@@ -1,1 +1,1 @@
-test: ./script.sh
+worker: python testenv.py
