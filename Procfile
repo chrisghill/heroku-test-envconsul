@@ -1,1 +1,1 @@
-worker: python testenv.py
+worker: envconsul -config envconsul.hcl
