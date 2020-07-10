@@ -1,1 +1,1 @@
-worker: envconsul -config envconsul.hcl
+worker: ./envconsul -config envconsul.hcl
