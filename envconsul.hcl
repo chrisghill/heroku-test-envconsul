@@ -7,18 +7,10 @@ vault {
         ca_cert = "./ca_cert.pem"
     }
 }
-exec {
-    command = "python testenv.py"
-}
 pristine = false
 upcase = true
 secret {
     no_prefix = true
     format = "{{key}}"
     path = "secret/foo"
-}
-secret {
-    no_prefix = true
-    format = "{{key}}"
-    path = "secret/bar"
 }
